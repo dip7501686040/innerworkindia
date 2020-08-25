@@ -1,0 +1,102 @@
+[08-Jul-2020 07:02:25 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/innerwor/public_html/chat/client/class/config.php:10
+Stack trace:
+#0 /home/innerwor/public_html/chat/client/class/config.php(10): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/innerwor/public_html/chat/client/class/user.php(11): config->db()
+#2 /home/innerwor/public_html/chat/client/login.php(9): user->__construct()
+#3 {main}
+  thrown in /home/innerwor/public_html/chat/client/class/config.php on line 10
+[08-Jul-2020 07:05:43 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/index.php on line 8
+[08-Jul-2020 07:05:43 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/innerwor/public_html/chat/client/class/config.php:10
+Stack trace:
+#0 /home/innerwor/public_html/chat/client/class/config.php(10): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/innerwor/public_html/chat/client/class/user.php(11): config->db()
+#2 /home/innerwor/public_html/chat/client/index.php(9): user->__construct()
+#3 {main}
+  thrown in /home/innerwor/public_html/chat/client/class/config.php on line 10
+[08-Jul-2020 07:05:44 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/innerwor/public_html/chat/client/class/config.php:10
+Stack trace:
+#0 /home/innerwor/public_html/chat/client/class/config.php(10): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/innerwor/public_html/chat/client/class/user.php(11): config->db()
+#2 /home/innerwor/public_html/chat/client/login.php(9): user->__construct()
+#3 {main}
+  thrown in /home/innerwor/public_html/chat/client/class/config.php on line 10
+[08-Jul-2020 07:12:57 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/innerwor/public_html/chat/client/class/config.php:10
+Stack trace:
+#0 /home/innerwor/public_html/chat/client/class/config.php(10): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/innerwor/public_html/chat/client/class/user.php(11): config->db()
+#2 /home/innerwor/public_html/chat/client/login.php(9): user->__construct()
+#3 {main}
+  thrown in /home/innerwor/public_html/chat/client/class/config.php on line 10
+[08-Jul-2020 07:13:08 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/innerwor/public_html/chat/client/class/config.php:10
+Stack trace:
+#0 /home/innerwor/public_html/chat/client/class/config.php(10): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/innerwor/public_html/chat/client/class/user.php(11): config->db()
+#2 /home/innerwor/public_html/chat/client/login.php(9): user->__construct()
+#3 {main}
+  thrown in /home/innerwor/public_html/chat/client/class/config.php on line 10
+[08-Jul-2020 07:13:43 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/innerwor/public_html/chat/client/class/config.php:10
+Stack trace:
+#0 /home/innerwor/public_html/chat/client/class/config.php(10): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/innerwor/public_html/chat/client/class/user.php(11): config->db()
+#2 /home/innerwor/public_html/chat/client/login.php(9): user->__construct()
+#3 {main}
+  thrown in /home/innerwor/public_html/chat/client/class/config.php on line 10
+[08-Jul-2020 07:21:46 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/innerwor/public_html/chat/client/class/config.php:10
+Stack trace:
+#0 /home/innerwor/public_html/chat/client/class/config.php(10): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/innerwor/public_html/chat/client/class/user.php(11): config->db()
+#2 /home/innerwor/public_html/chat/client/login.php(9): user->__construct()
+#3 {main}
+  thrown in /home/innerwor/public_html/chat/client/class/config.php on line 10
+[08-Jul-2020 07:23:08 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/innerwor/public_html/chat/client/class/config.php:10
+Stack trace:
+#0 /home/innerwor/public_html/chat/client/class/config.php(10): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/innerwor/public_html/chat/client/class/user.php(11): config->db()
+#2 /home/innerwor/public_html/chat/client/login.php(9): user->__construct()
+#3 {main}
+  thrown in /home/innerwor/public_html/chat/client/class/config.php on line 10
+[08-Jul-2020 07:48:26 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'innerwor_innerwork'@'localhost' to database 'innerwor_chatlive' in /home/innerwor/public_html/chat/client/class/config.php:10
+Stack trace:
+#0 /home/innerwor/public_html/chat/client/class/config.php(10): PDO->__construct('mysql:host=loca...', 'innerwor_innerw...', '0703#InnerW@')
+#1 /home/innerwor/public_html/chat/client/class/user.php(11): config->db()
+#2 /home/innerwor/public_html/chat/client/login.php(9): user->__construct()
+#3 {main}
+  thrown in /home/innerwor/public_html/chat/client/class/config.php on line 10
+[08-Jul-2020 12:07:16 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/index.php on line 8
+[08-Jul-2020 12:25:31 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/index.php on line 8
+[08-Jul-2020 12:42:48 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/index.php on line 8
+[08-Jul-2020 13:02:11 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/index.php on line 8
+[08-Jul-2020 13:02:11 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/chat_history.php on line 10
+[08-Jul-2020 13:02:11 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/update_last_activity.php on line 10
+[08-Jul-2020 13:02:11 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/all_user.php on line 9
+[08-Jul-2020 13:02:12 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/update_is_type_status.php on line 10
+[08-Jul-2020 13:02:12 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/update_is_type_status.php on line 10
+[08-Jul-2020 13:02:12 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/update_is_type_status.php on line 10
+[08-Jul-2020 13:02:19 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/index.php on line 8
+[08-Jul-2020 13:05:48 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/index.php on line 8
+[08-Jul-2020 13:09:11 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/index.php on line 8
+[08-Jul-2020 13:09:11 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/update_last_activity.php on line 10
+[08-Jul-2020 13:09:11 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/all_user.php on line 9
+[08-Jul-2020 13:09:11 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/chat_history.php on line 10
+[08-Jul-2020 13:09:14 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/index.php on line 8
+[08-Jul-2020 13:17:02 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/index.php on line 8
+[08-Jul-2020 13:17:08 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/index.php on line 8
+[08-Jul-2020 13:18:42 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/index.php on line 8
+[08-Jul-2020 13:20:26 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/index.php on line 8
+[08-Jul-2020 13:20:56 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/index.php on line 8
+[08-Jul-2020 13:20:59 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/all_user.php on line 9
+[08-Jul-2020 13:20:59 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/update_last_activity.php on line 10
+[08-Jul-2020 13:30:28 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/index.php on line 8
+[08-Jul-2020 13:34:15 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/all_user.php on line 9
+[08-Jul-2020 13:34:15 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/chat_history.php on line 10
+[08-Jul-2020 13:34:15 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/update_last_activity.php on line 10
+[08-Jul-2020 13:35:27 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/index.php on line 8
+[08-Jul-2020 14:01:36 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/index.php on line 8
+[08-Jul-2020 14:01:38 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/update_last_activity.php on line 10
+[08-Jul-2020 14:01:38 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/all_user.php on line 9
+[08-Jul-2020 14:01:38 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/chat_history.php on line 10
+[08-Jul-2020 14:01:40 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/index.php on line 8
+[08-Jul-2020 14:08:38 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/index.php on line 8
+[08-Jul-2020 14:39:19 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/index.php on line 8
+[08-Jul-2020 14:50:18 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/index.php on line 8
+[16-Jul-2020 16:01:14 Asia/Kolkata] PHP Notice:  Undefined index: user in /home/innerwor/public_html/chat/client/index.php on line 8
