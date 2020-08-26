@@ -52,14 +52,19 @@ img.logo:focus{outline:none;border:none;}
 
 .navbar{background: #fff;border: none;margin-bottom: 0;border-radius: 0;}
 ul.nav li.dropdown{transition:all 1s ease;cursor:pointer;}
-ul.nav li.dropdown:hover ul.dropdown-menu{display:block;}
+ul.nav li.drop_level_1:hover ul.drop_menu_level_1{display:block;}
+ul.nav li.drop_level_2:hover ul.drop_menu_level_2{display:block;}
 ul.dropdown-menu{padding: 0;background:#fff;border-radius: 0;}
 ul.dropdown-menu li{background:#e4841f;}
 ul.nav li.dropdown ul.dropdown-menu li{background: #ffffff;padding:2% 0;transition: all .7s ease;border-top: 1px dotted#000000;}
 ul.nav li.dropdown ul.dropdown-menu li{background: #ffffff;padding:2% 0;transition: all .7s ease;border-top: 1px dotted#000000;}
-ul.nav li.dropdown ul.dropdown-menu li:hover{background:#000;}
-ul.nav li.dropdown ul.dropdown-menu li:hover a{background:#000;color: #fff;text-shadow: none;}
-ul.nav li.dropdown ul.dropdown-menu li:focus a{background:#000;color: #000;text-shadow: none;}
+ul.nav li.drop_level_1 ul.drop_menu_level_1 li:hover{background:#000;}
+ul.nav li.drop_level_1 ul.drop_menu_level_1 li:hover .drop_link{background:#000;color: #fff;text-shadow: none;}
+ul.nav li.drop_level_1 ul.drop_menu_level_1 li:focus .drop_link{background:#000;color: #000;text-shadow: none;}
+ul.nav li.drop_level_2 ul.drop_menu_level_2{position: absolute; left: 159px; top: -5px;}
+ul.nav li.drop_level_2 ul.drop_menu_level_2 li:hover{background:#000;}
+ul.nav li.drop_level_2 ul.drop_menu_level_2 li:hover .drop_link_2{background:#000;color: #fff;text-shadow: none;}
+ul.nav li.drop_level_2 ul.drop_menu_level_2 li:focus .drop_link_2{background:#000;color: #000;text-shadow: none;}
 ul.nav li.dropdown ul.dropdown-menu li a{color: #504d4d;text-shadow: none;font-size: 12px;}
 .navbar-nav > li > .dropdown-menu {background:#fff;border-top-left-radius: 0;border-top-right-radius: 0;margin-top: -26%;height: 22px;}
 
@@ -73,6 +78,13 @@ h6.inner{display: block;margin-left: 10%;font-size: 24px;text-align: center;marg
 #banner p a:hover{color:#000;}
 /************************** End Banner **********************************/
 
+/* services */
+    .service_drop_menu{
+        position: absolute;
+        top: 145px;
+        left: 15px;
+    }
+/* //services */
 
 
 /********************Footer*************************************/

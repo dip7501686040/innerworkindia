@@ -97,100 +97,128 @@ window.addEventListener('load', function () {
     </script>
  -->
 <script type="text/javascript">
-		function notifyMe() {
-  // Let's check if the browser supports notifications
-  if (!("Notification" in window)) {
-    alert("This browser does not support desktop notification");
-  }
+  function notifyMe() {
+    // Let's check if the browser supports notifications
+    if (!("Notification" in window)) {
+      alert("This browser does not support desktop notification");
+    }
 
-  // Let's check whether notification permissions have already been granted
-  else if (Notification.permission === "granted") {
-    // If it's okay let's create a notification
-    var notification = new Notification("Hi there!Welcome to Innerwork :)");
-  }
+    // Let's check whether notification permissions have already been granted
+    else if (Notification.permission === "granted") {
+      // If it's okay let's create a notification
+      var notification = new Notification("Hi there!Welcome to Innerwork :)");
+    }
 
-  // Otherwise, we need to ask the user for permission
-  else if (Notification.permission !== "denied") {
-    Notification.requestPermission().then(function (permission) {
-      // If the user accepts, let's create a notification
-      if (permission === "granted") {
-        var notification = new Notification("Hi there!Welcome to Innerwork :)");
-      }
-    });
-  }
+    // Otherwise, we need to ask the user for permission
+    else if (Notification.permission !== "denied") {
+      Notification.requestPermission().then(function(permission) {
+        // If the user accepts, let's create a notification
+        if (permission === "granted") {
+          var notification = new Notification("Hi there!Welcome to Innerwork :)");
+        }
+      });
+    }
 
-  // At last, if the user has denied notifications, and you
-  // want to be respectful there is no need to bother them any more.
-}
-	</script>
+    // At last, if the user has denied notifications, and you
+    // want to be respectful there is no need to bother them any more.
+  }
+</script>
 <link rel="stylesheet" type="text/css" href="css/demo.css">
 
 <section id="headerBtm" style="padding-bottom:2%;">
-    <div class="container-fluid">
-        <nav class="navbar navbar-inverse" role="navigation"> <!-- navbar-fixed-top -->
-            <div class="container-fluid-padNone">
-                <div class="navbar-header ">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand " href="index" title="Innerer Work" id='h_inner' class="inner"><img src="img/logo1.jpg" alt="Innerer Work" class="logo" style="margin-top: -2px;">
-                    </a>
-                    <h6 id='h_inner' class="inner"><font face = "Monotype Corsiva" size = "10" >  </font></h6>
+  <div class="container-fluid">
+    <nav class="navbar navbar-inverse" role="navigation">
+      <!-- navbar-fixed-top -->
+      <div class="container-fluid-padNone">
+        <div class="navbar-header ">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand " href="index" title="Innerer Work" id='h_inner' class="inner"><img src="img/logo1.jpg" alt="Innerer Work" class="logo" style="margin-top: -2px;">
+          </a>
+          <h6 id='h_inner' class="inner">
+            <font face="Monotype Corsiva" size="10"> </font>
+          </h6>
 
-                    <!-- <h6 id='h_inner' class="inner"><font face = "Monotype Corsiva" size = 10" >Innerwork</font></h6> -->
-                </div>
+          <!-- <h6 id='h_inner' class="inner"><font face = "Monotype Corsiva" size = 10" >Innerwork</font></h6> -->
+        </div>
 
-                <div class="collapse navbar-collapse navbar-ex1-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index" id="homePageLink">Home</a></li>
-                        <li><a href="about" id="aboutPageLink">About Us</a></li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" id="servicesPageLink">Our Service <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="hr-consultancy" id="recruitmentPageLink">HR Services</a></li>
-                                <li><a href="it-services" id="staffingtPageLink">IT Services</a></li>
-                                <li><a href="digital-marketing" id="managementPageLink">Digital Marketing</a></li>
-                                <li><a href="startup-support" id="startupPageLink">Startup Support</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" id="servicesPageLink">Job<b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="jobseeker" id="jobSeekerPageLink">Job Seeker</a></li>
-                                <li><a href="jobPost" id="jobPostPageLink">Job | Internship Posting</a></li>
-                                <li><a href="intern" id="internPageLink">Internship</a></li>
-                                <li><a href="openings" id="internPageLink">Openings</a></li>
-                            </ul>
-                        </li>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index" id="homePageLink">Home</a></li>
+            <li><a href="about" id="aboutPageLink">About Us</a></li>
+            <li class="dropdown drop_level_1">
+              <a class="dropdown-toggle" data-toggle="dropdown" id="servicesPageLink">Our Service <b class="caret"></b></a>
+              <ul class="dropdown-menu drop_menu_level_1">
+                <li><a href="hr-consultancy" class="drop_link" id="recruitmentPageLink">HR Services</a></li>
+                <li><a href="it-services" class="drop_link" id="staffingtPageLink">IT Services</a></li>
+                <li><a href="digital-marketing" class="drop_link" id="managementPageLink">Digital Marketing</a></li>
+                <li class="nav-item dropdown drop_level_2">
+                  <a class="nav-link dropdown-toggle drop_link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    3D & VFX&nbsp&nbsp&nbsp<b class="fa fa-caret-right"></b>
+                  </a>
+                  <ul class="dropdown-menu drop_menu_level_2" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item drop_link_2" href="3d_and_vfx">Adobe Photoshop</a></li>
+                    <li><a class="dropdown-item drop_link_2" href="3d_and_vfx">Adobe Illustrator</a></li>
+                    <li><a class="dropdown-item drop_link_2" href="3d_and_vfx">Corel Draw</a></li>
+                    <li><a class="dropdown-item drop_link_2" href="3d_and_vfx">Adobe Indesign</a></li>
+                    <li><a class="dropdown-item drop_link_2" href="3d_and_vfx">Adobe Premeire</a></li>
+                    <li><a class="dropdown-item drop_link_2" href="3d_and_vfx">Adobe After Effects</a></li>
+                    <li><a class="dropdown-item drop_link_2" href="3d_and_vfx">3Ds MAX</a></li>
+                    <li><a class="dropdown-item drop_link_2" href="3d_and_vfx">Architecture Design</a></li>
+                    <li><a class="dropdown-item drop_link_2" href="3d_and_vfx">Game Design</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown drop_level_1">
+              <a class="dropdown-toggle" data-toggle="dropdown" id="servicesPageLink">Job<b class="caret"></b></a>
+              <ul class="dropdown-menu drop_menu_level_1">
+                <li><a href="jobseeker" class="drop_link" id="jobSeekerPageLink">Job Seeker</a></li>
+                <li><a href="jobPost" class="drop_link" id="jobPostPageLink">Job | Internship Posting</a></li>
+                <li><a href="intern" class="drop_link" id="internPageLink">Internship</a></li>
+                <li><a href="openings" class="drop_link" id="internPageLink">Openings</a></li>
+              </ul>
+            </li>
 
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" id="servicesPageLink">Resouces<b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="business" id="jobSeekerPageLink">Business Enquiry</a></li>
-                                <li><a href="blog" id="blogPageLink">BLOG</a></li>
-                                <li><a href="collegeport" id="collagePageLink">College</a></li>
-                                <li><a href="recruiter" id="employerPageLink">Freelance</a></li>
+            <li class="dropdown drop_level_1">
+              <a class="dropdown-toggle" data-toggle="dropdown" id="servicesPageLink">Resouces<b class="caret"></b></a>
+              <ul class="dropdown-menu drop_menu_level_1">
+                <li><a href="business" class="drop_link" id="jobSeekerPageLink">Business Enquiry</a></li>
+                <li><a href="blog" class="drop_link" id="blogPageLink">BLOG</a></li>
+                <li><a href="collegeport" class="drop_link" id="collagePageLink">College</a></li>
+                <li><a href="recruiter" class="drop_link" id="employerPageLink">Freelance</a></li>
 
-                            </ul>
-                        </li>
-                        <li><a href="Login.php">Login</a></li>
-                        <li><a href="contact">Contact Us</a></li>
-                                                <li><div id='paynow' class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_F3auqrmv27oE3J/view" data-text="Pay Now" data-color="#528FF0" data-size="small">
-  <script>
-    (function(){
-      var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
-      if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
-      s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
-      rzp && rzp.init && rzp.init()}})();
-  </script>
-</div>
-</li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
+              </ul>
+            </li>
+            <li><a href="Login.php">Login</a></li>
+            <li><a href="contact">Contact Us</a></li>
+            <li>
+              <div id='paynow' class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_F3auqrmv27oE3J/view" data-text="Pay Now" data-color="#528FF0" data-size="small">
+                <script>
+                  (function() {
+                    var d = document;
+                    var x = !d.getElementById('razorpay-embed-btn-js')
+                    if (x) {
+                      var s = d.createElement('script');
+                      s.defer = !0;
+                      s.id = 'razorpay-embed-btn-js';
+                      s.src = 'https://cdn.razorpay.com/static/embed_btn/bundle.js';
+                      d.body.appendChild(s);
+                    } else {
+                      var rzp = window['__rzp__'];
+                      rzp && rzp.init && rzp.init()
+                    }
+                  })();
+                </script>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
 </section>
