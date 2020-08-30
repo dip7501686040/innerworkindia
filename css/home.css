@@ -10,14 +10,19 @@ a#homePageLink{color: #ffc114;font-weight:bold;}
 
 #services{padding: 4% 0;}
 a.Box{color: #000;}
-.Box {border: 1px dotted #a5a2a2;padding:5%;transition:ease all 1s;margin-bottom:2%;}
+.Box {border: 1px dotted #a5a2a2;padding:5%;transition:ease all 1s;margin-bottom:2%; height: 150px;}
 .Box h2{font-size: 30px;font-weight: bold;}
-.Box h2 span{margin-left: 12%;transition:ease all 1s;color:#000;font-size:27px;}
+.Box h2 span{margin-left: 13%;transition:ease all 1s;color:#000;font-size:27px;}
 .Box h2 img{width: 10%;filter: grayscale(100%);opacity: .4;position: absolute;transition:ease all 1s;}
+.Box h3{font-size: 30px;font-weight: bold;}
+.Box h3 span{margin-left: 13%;transition:ease all 1s;color:#000;font-size: 23px;}
+.Box h3 img{width: 10%;filter: grayscale(100%);opacity: .4;position: absolute;transition:ease all 1s;}
 .Box p{font-size: 14px;color: #575757;}
 .Box:hover{box-shadow: 0 5px 8px #676767;}
 .Box:hover img{width:24%;opacity: .1;}
 .Box:hover h2 span{margin-left: 0;}
+.Box:hover h3 span{margin-left: 0;}
+
 
 #aboutUs{padding-top:4%;padding-bottom:8%;}
 #aboutUs h4{font-size: 23px;color: #ffc114;margin-bottom: 0;}

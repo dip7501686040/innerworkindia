@@ -10,7 +10,7 @@
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" rel="stylesheet" media="all">
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" media="all">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="all">
-<link href="css/style.css" rel="stylesheet" media="all">
+<link href="css/style.css?version=1.1" rel="stylesheet" media="all">
 <link rel="shortcut icon" type="image/x-icon" href="img/fevicon.png">
 
 

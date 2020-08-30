@@ -2,11 +2,26 @@
 #ourSer img{width: 100%;}
 #ourSer h2{font-size: 33px;}
 #ourSer h4{font-size: 18px;font-weight: bold;}
-#ourSer p {font-size: 16px;line-height: 30px;text-align: justify;}
+#ourSer p {font-size: 16px;line-height: 30px;text-align: justify; font-weight: 700;}
 .makesSpecial{margin-top: 4%; border: 1px solid #ecf5f7;background:#ecf5f7; box-shadow: 2px 3px 4px 4px #dcf2f7;padding: 30px 33px;}
 .makesSpecial h5{font-size: 24px;text-align: left;margin-left: 3.4%;}
 ul.greaSer{list-style: circle;}
 ul.greaSer li{}
+
+.course .course-desc h4{
+    margin-top: 25px;
+}
+.course .course-desc h5{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+}
+.course .course-desc h6{
+    font-family: Arial; 
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 600;
+}
 
 #hrService{padding: 3%;}
 #hrService img{width: 100%;}
@@ -28,6 +43,10 @@ ul.startupList li{line-height: 39px;margin-left: -25px;font-size: 16px;font-fami
     .num{display:none;}
     .serviceList{box-shadow:0 5px 8px #ededed;padding:4%;border:1px solid #d3d3d3;}
     #hrService h2{font-size: 20px;}
+    #ourSer .container{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
 }
 @media (max-width: 768px) {
     #hrService a {padding: 2%;display: block;width:50%;}

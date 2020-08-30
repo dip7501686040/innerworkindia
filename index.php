@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Innerwork Portal | IT Services | Hr Services | Digital Marketing | Startup Support</title>
     <?php include "CommonFiles.php" ?>
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/home.css?version=1.1">
     <script src="js/wow.js"></script>
     <script>
         var wow = new WOW({
@@ -380,7 +380,7 @@
     </section>
 
     <section id="services" class="wow" style="-webkit-animation-name: fadeIn;
-  animation-name: fadeIn;visibility:visible;data-wow-delay=1s;">
+  animation-name: fadeIn;visibility:visible;">
         <div class="container-fluid padNone">
 
 
@@ -424,20 +424,17 @@
                   animation-name: fadeInLeft;
                 animation-duration: 1s;
                 animation-iteration-count: 1;visibility:visible;data-wow-delay=0.2s;">
-                        <h2 style="color:#fff;"><img src="img/icons/startupSupport.jpg" alt="management - Innerwork"> <span style="color:#fff;">3D & VFX</span></h2>
-                        <p style="color:#fff;">As a startup we can help you for our all services.</p>
+                        <h3 style="color:#fff;"><img src="img/icons/startupSupport.jpg" alt="management - Innerwork"> <span style="color:#fff;">Multimedia, 3D & VFX</span></h3>
+                        <p style="color:#fff;">Enter the exciting world of Creativity.</p>
                     </div>
                 </a>
                 <ul class="dropdown-menu service_drop_menu" aria-labelledby="navbarDropdownMenuLink1">
-                    <li><a class="dropdown-item service_drop_link" href="3d_and_vfx">Adobe Photoshop</a></li>
-                    <li><a class="dropdown-item service_drop_link" href="3d_and_vfx">Adobe Illustrator</a></li>
-                    <li><a class="dropdown-item service_drop_link" href="3d_and_vfx">Corel Draw</a></li>
-                    <li><a class="dropdown-item service_drop_link" href="3d_and_vfx">Adobe Indesign</a></li>
-                    <li><a class="dropdown-item service_drop_link" href="3d_and_vfx">Adobe Premeire</a></li>
-                    <li><a class="dropdown-item service_drop_link" href="3d_and_vfx">Adobe After Effects</a></li>
-                    <li><a class="dropdown-item service_drop_link" href="3d_and_vfx">3Ds MAX</a></li>
-                    <li><a class="dropdown-item service_drop_link" href="3d_and_vfx">Architecture Design</a></li>
-                    <li><a class="dropdown-item service_drop_link" href="3d_and_vfx">Game Design</a></li>
+                    <li><a class="dropdown-item service_drop_link" href="3d_and_vfx?course=Graphic Designing">Graphic Designing</a></li>
+                    <li><a class="dropdown-item service_drop_link" href="3d_and_vfx?course=Video Editing">Video Editing</a></li>
+                    <li><a class="dropdown-item service_drop_link" href="3d_and_vfx?course=Motion Graphics">Motion Graphics</a></li>
+                    <li><a class="dropdown-item service_drop_link" href="3d_and_vfx?course=Architecture Designing">Architecture Designing</a></li>
+                    <li><a class="dropdown-item service_drop_link" href="3d_and_vfx?course=Autodesk MAX">Autodesk MAX</a></li>
+                    <li><a class="dropdown-item service_drop_link" href="3d_and_vfx?course=Autodesk Maya">Autodesk Maya</a></li>
                 </ul>
             </div>
         </div>

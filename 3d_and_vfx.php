@@ -1,3 +1,6 @@
+<?php
+$course = $_REQUEST['course'];
+?>
 <!doctype html>
 <html lang="en">
 
@@ -5,7 +8,7 @@
     <meta charset="UTF-8">
     <title> Startup Support Services | Startup Business Support | Startup Support in India </title>
     <?php include "CommonFiles.php" ?>
-    <link rel="stylesheet" href="css/hr-consultancy.css">
+    <link rel="stylesheet" href="css/hr-consultancy.css?version=1.1">
     <link rel="stylesheet" href="css/collage.css">
 </head>
 
@@ -16,89 +19,198 @@
         <div class="container">
             <div class="col-md-8"></div>
             <div class="col-md-4">
-                <h2>3D & VFX</h2>
-                <p><a href="index">Home</a> <span>/</span>3D & VFX</p>
+                <h2><?php echo $course; ?></h2>
+                <p><a href="index">Home</a> <span>/</span><?php echo $course; ?></p>
             </div>
         </div>
     </section>
 
     <section id="ourSer">
         <div class="container">
-            <ul style="list-style: none;">
-                <li>
-                    <h2>Adobe Photoshop</h2>
-                    <p>Adobe Photoshop is a raster graphics editor developed and published by Adobe Inc. for Windows and
-                        macOS. It was originally created in 1988 by Thomas and John Knoll. Since then, the software has
-                        become the industry standard not only in raster graphics editing, but in digital art as a whole.
-                        The software's name has thus become a generic trademark, leading to its usage as a verb (e.g. "to
-                        photoshop an image", "photoshopping", and "photoshop contest") although Adobe discourages such use.
-                        [5] Photoshop can edit and compose raster images in multiple layers and supports masks, alpha
-                        compositing and several color models including RGB, CMYK, CIELAB, spot color, and duotone. 
-                    </p>
-                </li>
-                <li>
-                    <h2>Adobe Illustrator</h2>
-                    <p>
-                        Adobe Illustrator is a vector graphics editor and design program developed and marketed by Adobe 
-                        Inc. Originally designed for the Apple Macintosh, development of Adobe Illustrator began in 1985. 
-                        Along with Creative Cloud (Adobe's shift to monthly or annual subscription service delivered over 
-                        the Internet), Illustrator CC was released. The latest version, Illustrator CC 2020, was released 
-                        on October 24, 2019 and is the 24th generation in the product line. Adobe Illustrator was reviewed 
-                        as the best vector graphics editing program in 2018 by PC Magazine.
-                    </p>
-                </li>
-                <li>
-                    <h2>Corel Draw</h2>
-                    <p>
-                        CorelDRAW is a vector graphics editor developed and marketed by Corel Corporation. It is also the 
-                        name of the Corel graphics suite, which includes the bitmap-image editor Corel Photo-Paint as well 
-                        as other graphics-related programs (see below). The latest version is marketed as CorelDraw Graphics 
-                        Suite 2020 (equivalent to version 22), and was released in March, 2020. CorelDraw is designed to edit 
-                        two-dimensional images such as logos and posters. 
-                    </p>
-                </li>
-                <li>
-                    <h2>Adobe Indesign</h2>
-                    <p>
-                        Adobe InDesign is a desktop publishing and typesetting software application produced by Adobe 
-                        Systems. It can be used to create works such as posters, flyers, brochures, magazines, newspapers, 
-                        presentations, books and ebooks. InDesign can also publish content suitable for tablet devices in 
-                        conjunction with Adobe Digital Publishing Suite. Graphic designers and production artists are the 
-                        principal users, creating and laying out periodical publications, posters, and print media.
-                    </p>
-                </li>
-                <li>
-                    <h2>Adobe Premeire</h2>
-                    <p>
-                        Adobe Premiere Pro is a timeline-based video editing software application developed by Adobe Systems and published as part of the Adobe Creative Cloud licensing program. First launched in 2003, Adobe Premiere Pro is a successor of Adobe Premiere (first launched in 1991). It is geared towards professional video editing, while its sibling, Adobe Premiere Elements, targets the consumer market.
-                    </p>
-                </li>
-                <li>
-                    <h2>Adobe After Effects</h2>
-                    <p>
-                        Adobe After Effects is a digital visual effects, motion graphics, and compositing application developed by Adobe Systems and used in the post-production process of film making, video games and television production. Among other things, After Effects can be used for keying, tracking, compositing, and animation. It also functions as a very basic non-linear editor, audio editor, and media transcoder. In 2019, the program won an Academy Award for scientific and technical achievement.[2] 
-                    </p>
-                </li>
-                <li>
-                    <h2>3Ds MAX</h2>
-                    <p>
-                        Autodesk 3ds Max, formerly 3D Studio and 3D Studio Max, is a professional 3D computer graphics program for making 3D animations, models, games and images. It is developed and produced by Autodesk Media and Entertainment.[2] It has modeling capabilities and a flexible plugin architecture and must be used on the Microsoft Windows platform. It is frequently used by video game developers, many TV commercial studios, and architectural visualization studios. It is also used for movie effects and movie pre-visualization. For its modeling and animation tools, the latest version[which?] of 3ds Max also features shaders (such as ambient occlusion and subsurface scattering), dynamic simulation, particle systems, radiosity, normal map creation and rendering, global illumination, a customizable user interface, new icons, and its own scripting language.[3]
-                    </p>
-                </li>
-                <li>
-                    <h2>Architecture Design</h2>
-                    <p>
-                        architecture refers to the fundamental structures of a software system and the discipline of creating such structures and systems. Each structure comprises software elements, relations among them, and properties of both elements and relations.[1] The architecture of a software system is a metaphor, analogous to the architecture of a building.[2] It functions as a blueprint for the system and the developing project, laying out the tasks necessary to be executed by the design teams.[3] 
-                    </p>
-                </li>
-                <li>
-                    <h2>Game Design</h2>
-                    <p>
-                        Game design is the art of applying design and aesthetics to create a game for entertainment or for educational, exercise, or experimental purposes. Increasingly, elements and principles of game design are also applied to other interactions, in the form of gamification.
+            <ul style="list-style: none; padding: 0">
+                <?php
+                if ($course == 'Graphic Designing') {
+                ?>
+                    <li class="row course">
+                        <div class="col-md-5 course-img">
+                            <img src="Images/gRAPHIC DESIGN.png" alt="" style="width: 100%; height:300px; margin-top:25px;">
+                        </div>
+                        <div class="col-md-7 course-desc">
+                            <h2>Graphic Designing</h2>
+                            <p>Graphic design is art with a purpose. It involves a creative and systematic plan to solve a problem or achieve certain objectives, with the use of images, symbols or even words. It is visual communication and the aesthetic expression of concepts and ideas using various graphic elements and tools.
+                            </p>
+                            <h4>Software Covered:</h4>
+                            <h6>
+                                Adobe Photoshop<br />
+                                Adobe Illustrator<br />
+                                Adobe indesign<br />
+                                Corel Draw
+                            </h6>
+                            <h5>
+                                Course Duration : 6 Months <br>
+                                Note: You can Get enrolled in individual Software too as Per your Requirement,
+                            </h5>
+                            <h4>Career Opportunities:</h4>
+                            <h6>
+                                Graphic Designer <br>
+                                DTP Operator <br>
+                                Layout Designer <br>
+                                UI Designer <br>
+                                Packaging Designer <br>
+                                Designer For interactive E-Learning
+                            </h6>
+                        </div>
+                    </li>
+                <?php
+                } elseif ($course == 'Video Editing') {
+                ?>
+                    <li class="row course">
+                        <div class="col-md-5 course-img">
+                            <img src="Images/video editing1.JPG" alt="" style="width: 100%; height:300px; margin-top:25px;">
+                        </div>
+                        <div class="col-md-7 course-desc">
+                            <h2>Video Editing:</h2>
+                            <p>Video editing is the manipulation and arrangement of video shots. Video editing is used to structure and present all video information, including films and television shows, video advertisements and video essays.
+                            </p>
+                            <h4>Software Covered:</h4>
+                            <h6>
+                                Adobe Premiere<br />
+                                Adobe Premiere
+                            </h6>
+                            <h5>
+                                Duration : 2 Months
+                            </h5>
+                            <h4>Career Opportunities:</h4>
+                            <h6>
+                                Video Editor <br>
+                                Film Editor
+                            </h6>
+                        </div>
+                    </li>
+                <?php
+                } elseif ($course == 'Motion Graphics') {
+                ?>
+                    <li class="row course">
+                        <div class="col-md-5 course-img">
+                            <img src="Images/video editing.JPG" alt="" style="width: 100%; height:300px; margin-top:25px;">
+                        </div>
+                        <div class="col-md-7 course-desc">
+                            <h2>Motion Graphics:</h2>
+                            <p>Motion graphics are pieces of animation or digital footage which create the illusion of motion or rotation, and are usually combined with audio for use in multimedia projects.
+                            </p>
+                            <h4>Software Covered:</h4>
+                            <h6>
+                                Adobe After Effects
+                            </h6>
+                            <h5>
+                                Course Duration : 2 Months <br>
+                            </h5>
+                            <h4>Career Opportunities:</h4>
+                            <h6>
+                                Motion Graphic Artist <br>
+                                Advertisement Designer <br>
+                                2D Animation
+                            </h6>
 
-Game design creates goals, rules and challenges to define a board game, card game, dice game, casino game, role-playing game, sport, video game, war game or simulation that produces desirable interactions among its participants and, possibly, spectators.
-                    </p>
-                </li>
+                        </div>
+                    </li>
+                <?php
+                } elseif ($course == 'Architecture Designing') {
+                ?>
+                    <li class="row course">
+                        <div class="col-md-5 course-img">
+                            <img src="Images/15-3d-floor-plan-rendering.jpg" alt="" style="width: 100%; height:300px; margin-top:25px;">
+                        </div>
+                        <div class="col-md-7 course-desc">
+                            <h2>Architecture Designing:</h2>
+                            <p>Architectural design is a concept that focuses on components or elements of a structure. An architect is generally the one in charge of the architectural design. They work with space and elements to create a coherent and functional structure.
+                            </p>
+                            <h4>Software Covered:</h4>
+                            <h6>
+                                Architecture Designing <br>
+                                Introduction of AutoCAD <br>
+                                3Ds Max <br>
+                                Revit <br>
+                                Unity
+
+                            </h6>
+                            <h5>
+                                Course Duration : 7 Months <br>
+                            </h5>
+                            <h4>Career Opportunities:</h4>
+                            <h6>
+                                3D Modeler <br>
+                                3D Visualizer <br>
+                                Architecture Design
+                            </h6>
+
+                        </div>
+                    </li>
+                <?php
+                } elseif ($course == 'Autodesk MAX') {
+                ?>
+                    <li class="row course">
+                        <div class="col-md-5 course-img">
+                            <img src="Images/3DS MAX.jpg" alt="" style="width: 100%; height:300px; margin-top:25px;">
+                        </div>
+                        <div class="col-md-7 course-desc">
+                            <h2>Autodesk MAX:</h2>
+                            <p>Autodesk 3ds Max, formerly 3D Studio and 3D Studio Max, is a professional 3D computer graphics program for making 3D animations, models, games and images. It is developed and produced by Autodesk Media and Entertainment.
+                            </p>
+                            <h4>Software Covered:</h4>
+                            <h6>
+                                Autodesk Max <br>
+                                (Modelling, Texturing, Lighting & Animation )
+
+
+                            </h6>
+                            <h5>
+                                Course Duration : 6 Months <br>
+                            </h5>
+                            <h4>Career Opportunities:</h4>
+                            <h6>
+                                3D Modeler <br>
+                                3D Visualizer <br>
+                                3D Lighting Artist <br>
+                                3D Animator
+
+                            </h6>
+
+                        </div>
+                    </li>
+                <?php
+                } elseif ($course == 'Autodesk Maya') {
+                ?>
+                    <li class="row course">
+                        <div class="col-md-5 course-img">
+                            <img src="Images/mAYA.jpg" alt="" style="width: 100%; height:300px; margin-top:25px;">
+                        </div>
+                        <div class="col-md-7 course-desc">
+                            <h2>Autodesk Maya:</h2>
+                            <p>Autodesk Maya is a 3D modeling and animation program that can be used for 3D printing, and animated graphics. Whether you plan to model or modify objects Maya offers all the tools needed to produce professional and quality results for even a beginner.
+                            </p>
+                            <h4>Software Covered:</h4>
+                            <h6>
+                                Autodesk Maya <br>
+                                (Modelling, Texturing, Lighting & Animation )
+                            </h6>
+                            <h5>
+                                Course Duration : 6 Months <br>
+                            </h5>
+                            <h4>Career Opportunities:</h4>
+                            <h6>
+                                3D Modeler <br>
+                                3D Visualizer <br>
+                                3D Lighting Artist <br>
+                                3D Animator
+
+                            </h6>
+
+                        </div>
+                    </li>
+                <?php
+                }
+                ?>
             </ul>
         </div>
 
