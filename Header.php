@@ -161,15 +161,12 @@ window.addEventListener('load', function () {
                     3D & VFX&nbsp&nbsp&nbsp<b class="fa fa-caret-right"></b>
                   </a>
                   <ul class="dropdown-menu drop_menu_level_2" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item drop_link_2" href="3d_and_vfx">Adobe Photoshop</a></li>
-                    <li><a class="dropdown-item drop_link_2" href="3d_and_vfx">Adobe Illustrator</a></li>
-                    <li><a class="dropdown-item drop_link_2" href="3d_and_vfx">Corel Draw</a></li>
-                    <li><a class="dropdown-item drop_link_2" href="3d_and_vfx">Adobe Indesign</a></li>
-                    <li><a class="dropdown-item drop_link_2" href="3d_and_vfx">Adobe Premeire</a></li>
-                    <li><a class="dropdown-item drop_link_2" href="3d_and_vfx">Adobe After Effects</a></li>
-                    <li><a class="dropdown-item drop_link_2" href="3d_and_vfx">3Ds MAX</a></li>
-                    <li><a class="dropdown-item drop_link_2" href="3d_and_vfx">Architecture Design</a></li>
-                    <li><a class="dropdown-item drop_link_2" href="3d_and_vfx">Game Design</a></li>
+                    <li><a class="dropdown-item drop_link_2" href="3d_and_vfx?course=Graphic Designing">Graphic Designing</a></li>
+                    <li><a class="dropdown-item drop_link_2" href="3d_and_vfx?course=Video Editing">Video Editing</a></li>
+                    <li><a class="dropdown-item drop_link_2" href="3d_and_vfx?course=Motion Graphics">Motion Graphics</a></li>
+                    <li><a class="dropdown-item drop_link_2" href="3d_and_vfx?course=Architecture Designing">Architecture Designing</a></li>
+                    <li><a class="dropdown-item drop_link_2" href="3d_and_vfx?course=Autodesk MAX">Autodesk MAX</a></li>
+                    <li><a class="dropdown-item drop_link_2" href="3d_and_vfx?course=Autodesk Maya">Autodesk Maya</a></li>
                   </ul>
                 </li>
               </ul>

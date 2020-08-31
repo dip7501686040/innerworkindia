@@ -24,6 +24,10 @@ $course = $_REQUEST['course'];
             </div>
         </div>
     </section>
+    
+    <div style="text-align: center;">
+        <img src="Images/100satisfaction.png" alt="" style="width: 50%; height:200px; margin-top: 25px;">
+    </div>
 
     <section id="ourSer">
         <div class="container">
@@ -92,7 +96,7 @@ $course = $_REQUEST['course'];
                 ?>
                     <li class="row course">
                         <div class="col-md-5 course-img">
-                            <img src="Images/video editing.JPG" alt="" style="width: 100%; height:300px; margin-top:25px;">
+                            <img src="Images/homework-dribbble_original.gif" alt="" style="width: 100%; height:300px; margin-top:25px;">
                         </div>
                         <div class="col-md-7 course-desc">
                             <h2>Motion Graphics:</h2>
