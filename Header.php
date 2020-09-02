@@ -147,7 +147,7 @@ window.addEventListener('load', function () {
         </div>
 
         <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right header_drop">
             <li><a href="index" id="homePageLink">Home</a></li>
             <li><a href="about" id="aboutPageLink">About Us</a></li>
             <li class="dropdown drop_level_1">
@@ -171,6 +171,19 @@ window.addEventListener('load', function () {
                 </li>
               </ul>
             </li>
+            <!-- <li class="dropdown drop_level_1">
+              <a class="dropdown-toggle" href="#" id="servicesPageLink" data-toggle="dropdown">
+                3D & VFX&nbsp&nbsp&nbsp<b class="fa fa-caret-right"></b>
+              </a>
+              <ul class="dropdown-menu drop_menu_level_1">
+                <li><a class="drop_link" href="3d_and_vfx?course=Graphic Designing">Graphic Designing</a></li>
+                <li><a class="drop_link" href="3d_and_vfx?course=Video Editing">Video Editing</a></li>
+                <li><a class="drop_link" href="3d_and_vfx?course=Motion Graphics">Motion Graphics</a></li>
+                <li><a class="drop_link" href="3d_and_vfx?course=Architecture Designing">Architecture Designing</a></li>
+                <li><a class="drop_link" href="3d_and_vfx?course=Autodesk MAX">Autodesk MAX</a></li>
+                <li><a class="drop_link" href="3d_and_vfx?course=Autodesk Maya">Autodesk Maya</a></li>
+              </ul>
+            </li> -->
             <li class="dropdown drop_level_1">
               <a class="dropdown-toggle" data-toggle="dropdown" id="servicesPageLink">Job<b class="caret"></b></a>
               <ul class="dropdown-menu drop_menu_level_1">
