@@ -158,7 +158,7 @@ window.addEventListener('load', function () {
                 <li><a href="digital-marketing" class="drop_link" id="managementPageLink">Digital Marketing</a></li>
                 <li class="nav-item dropdown drop_level_2">
                   <a class="nav-link dropdown-toggle drop_link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    3D & VFX&nbsp&nbsp&nbsp<b class="fa fa-caret-right"></b>
+                    Multimedia&nbsp&nbsp&nbsp<b class="fa fa-caret-right"></b>
                   </a>
                   <ul class="dropdown-menu drop_menu_level_2" aria-labelledby="navbarDropdownMenuLink">
                     <li><a class="dropdown-item drop_link_2" href="3d_and_vfx?course=Graphic Designing">Graphic Designing</a></li>
@@ -171,9 +171,9 @@ window.addEventListener('load', function () {
                 </li>
               </ul>
             </li>
-            <!-- <li class="dropdown drop_level_1">
+            <li class="dropdown drop_level_1">
               <a class="dropdown-toggle" href="#" id="servicesPageLink" data-toggle="dropdown">
-                3D & VFX&nbsp&nbsp&nbsp<b class="fa fa-caret-right"></b>
+                Multimedia&nbsp&nbsp&nbsp<b class="fa fa-caret-right"></b>
               </a>
               <ul class="dropdown-menu drop_menu_level_1">
                 <li><a class="drop_link" href="3d_and_vfx?course=Graphic Designing">Graphic Designing</a></li>
@@ -183,7 +183,7 @@ window.addEventListener('load', function () {
                 <li><a class="drop_link" href="3d_and_vfx?course=Autodesk MAX">Autodesk MAX</a></li>
                 <li><a class="drop_link" href="3d_and_vfx?course=Autodesk Maya">Autodesk Maya</a></li>
               </ul>
-            </li> -->
+            </li>
             <li class="dropdown drop_level_1">
               <a class="dropdown-toggle" data-toggle="dropdown" id="servicesPageLink">Job<b class="caret"></b></a>
               <ul class="dropdown-menu drop_menu_level_1">
