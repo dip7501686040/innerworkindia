@@ -156,7 +156,7 @@ window.addEventListener('load', function () {
                 <li><a href="hr-consultancy" class="drop_link" id="recruitmentPageLink">HR Services</a></li>
                 <li><a href="it-services" class="drop_link" id="staffingtPageLink">IT Services</a></li>
                 <li><a href="digital-marketing" class="drop_link" id="managementPageLink">Digital Marketing</a></li>
-                <li class="nav-item dropdown drop_level_2">
+                <!-- <li class="nav-item dropdown drop_level_2">
                   <a class="nav-link dropdown-toggle drop_link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Multimedia&nbsp&nbsp&nbsp<b class="fa fa-caret-right"></b>
                   </a>
@@ -168,7 +168,7 @@ window.addEventListener('load', function () {
                     <li><a class="dropdown-item drop_link_2" href="3d_and_vfx?course=Autodesk MAX">Autodesk MAX</a></li>
                     <li><a class="dropdown-item drop_link_2" href="3d_and_vfx?course=Autodesk Maya">Autodesk Maya</a></li>
                   </ul>
-                </li>
+                </li> -->
               </ul>
             </li>
             <li class="dropdown drop_level_1">
