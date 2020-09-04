@@ -20,7 +20,7 @@ body a {
 
 body a:hover {
     text-decoration: none;
-}
+    }
 
 body p {
     font-family: GraphikRegular;
@@ -46,7 +46,6 @@ body h2 {
 body h1 {
     font-family: GraphikRegular;
 }
-
 body ul li {
     font-family: GraphikRegular;
 }
@@ -184,7 +183,7 @@ ul.nav li.drop_level_2:hover ul.drop_menu_level_2 {
 
 ul.dropdown-menu {
     padding: 0;
-    background: #fff;
+    
     border-radius: 0;
 }
 
@@ -193,26 +192,25 @@ ul.dropdown-menu li {
 }
 
 ul.nav li.dropdown ul.dropdown-menu li {
-    background: #ffffff;
+    background: #f19153;
     padding: 2% 0;
     transition: all .7s ease;
     border-top: 1px dotted#000000;
 }
 
 ul.nav li.dropdown ul.dropdown-menu li {
-    background: #ffffff;
+    background: #f19153;
     padding: 2% 0;
     transition: all .7s ease;
     border-top: 1px dotted#000000;
 }
 
 ul.nav li.drop_level_1 ul.drop_menu_level_1 li:hover {
-    background: #000;
+    
 }
 
 ul.nav li.drop_level_1 ul.drop_menu_level_1 li:hover .drop_link {
-    background: #000;
-    color: #fff;
+        
     text-shadow: none;
 }
 
