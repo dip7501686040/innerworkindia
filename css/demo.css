@@ -93,9 +93,10 @@
 /*}*/
 
 .navbar-header
-{
+{ 
 	width: auto;
 	height: 10em;
+	
 }
 #h_inner
 {
@@ -109,6 +110,7 @@
 	{
 		width: auto;
 		height: 10px;
+
 	}
 	#h_inner
 	{
