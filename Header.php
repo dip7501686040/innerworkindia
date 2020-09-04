@@ -131,7 +131,7 @@ window.addEventListener('load', function () {
       <!-- navbar-fixed-top -->
       <div class="container-fluid-padNone">
         <div class="navbar-header ">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <button type="button" class="navbar-toggle" id="nav-button" data-toggle="collapse" data-target=".navbar-ex1-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -173,7 +173,7 @@ window.addEventListener('load', function () {
             </li>
             <li class="dropdown drop_level_1">
               <a class="dropdown-toggle" href="#" id="servicesPageLink" data-toggle="dropdown">
-                Multimedia&nbsp&nbsp&nbsp<b class="fa fa-caret-right"></b>
+                Multimedia&nbsp&nbsp&nbsp<b class="fa fa-caret-down"></b>
               </a>
               <ul class="dropdown-menu drop_menu_level_1">
                 <li><a class="drop_link" href="3d_and_vfx?course=Graphic Designing">Graphic Designing</a></li>

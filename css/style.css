@@ -121,6 +121,7 @@ img.logo:focus {
 
 .navbar-nav {
     margin-bottom: -6%;
+    margin-top: -55px;
 }
 
 .nav>li {
@@ -165,6 +166,7 @@ img.logo:focus {
     border: none;
     margin-bottom: 0;
     border-radius: 0;
+    
 }
 
 ul.nav li.dropdown {
@@ -535,7 +537,7 @@ p.copyright a:hover {
 }
 
 .hireUsBtn:after {
-    background-color: #e0e0e0;
+    background-color: #daa440;
     content: "";
     color: #e0e0e0;
     font-size: 50px;

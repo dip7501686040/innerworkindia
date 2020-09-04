@@ -17,11 +17,11 @@
         })
         wow.init();
 
-        $(document).ready(function(){
-            $(".service_dropdown").on('mouseenter', function(){
+        $(document).ready(function() {
+            $(".service_dropdown").on('mouseenter', function() {
                 $('.service_drop_menu').css('display', 'block')
             })
-            $(".service_dropdown").on('mouseleave', function(){
+            $(".service_dropdown").on('mouseleave', function() {
                 $('.service_drop_menu').css('display', 'none')
             })
         })
@@ -298,60 +298,61 @@
 <body onload="notifyMe()">
     <?php include_once 'Header.php'; ?>
 
-    <section id="slider">
-        <div class="container-fluid padNone">
-            <div id="apnaCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+    <section id='main-body'>
+        <section id="slider">
+            <div class="container-fluid padNone">
+                <div id="apnaCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
 
-                <ul class="carousel-indicators">
-                    <li data-target="#apnaCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#apnaCarousel" data-slide-to="1" class=""></li>
-                    <li data-target="#apnaCarousel" data-slide-to="2" class=""></li>
-                    <li data-target="#apnaCarousel" data-slide-to="3" class=""></li>
-                    <li data-target="#apnaCarousel" data-slide-to="4" class=""></li>
-                    <li data-target="#apnaCarousel" data-slide-to="5" class=""></li>
-                    <!--  <li data-target="#apnaCarousel" data-slide-to="6" class=""></li>
+                    <ul class="carousel-indicators">
+                        <li data-target="#apnaCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#apnaCarousel" data-slide-to="1" class=""></li>
+                        <li data-target="#apnaCarousel" data-slide-to="2" class=""></li>
+                        <li data-target="#apnaCarousel" data-slide-to="3" class=""></li>
+                        <li data-target="#apnaCarousel" data-slide-to="4" class=""></li>
+                        <li data-target="#apnaCarousel" data-slide-to="5" class=""></li>
+                        <!--  <li data-target="#apnaCarousel" data-slide-to="6" class=""></li>
                 <li data-target="#apnaCarousel" data-slide-to="7" class=""></li>
               <li data-target="#apnaCarousel" data-slide-to="8" class=""></li>-->
 
 
-                </ul>
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="img/r.jpeg" alt="" style="width:100%;">
-                        <div class="carousel-caption">
+                    </ul>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/r.jpeg" alt="" style="width:100%;">
+                            <div class="carousel-caption">
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="item ">
-                        <img src="Images/website banner-14.jpg" alt="" style="width:100%;">
-                        <div class="carousel-caption">
+                        <div class="item ">
+                            <img src="Images/website banner-14.jpg" alt="" style="width:100%;">
+                            <div class="carousel-caption">
 
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="item ">
-                        <img src="Images/website banner- 7.jpg" alt="" style="width:100%;">
-                        <div class="carousel-caption">
+                        <div class="item ">
+                            <img src="Images/website banner- 7.jpg" alt="" style="width:100%;">
+                            <div class="carousel-caption">
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="item ">
-                        <img src="Images/website banner-5.jpg" alt="" style="width:100%;">
-                        <div class="carousel-caption">
+                        <div class="item ">
+                            <img src="Images/website banner-5.jpg" alt="" style="width:100%;">
+                            <div class="carousel-caption">
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="item ">
-                        <img src="Images/website banner-6.jpg" alt="" style="width:100%;">
-                        <div class="carousel-caption">
+                        <div class="item ">
+                            <img src="Images/website banner-6.jpg" alt="" style="width:100%;">
+                            <div class="carousel-caption">
+                            </div>
                         </div>
-                    </div>
-                    <div class="item ">
-                        <img src="Images/website banner-12.jpg" alt="" style="width:100%;">
-                        <div class="carousel-caption">
+                        <div class="item ">
+                            <img src="Images/website banner-12.jpg" alt="" style="width:100%;">
+                            <div class="carousel-caption">
+                            </div>
                         </div>
-                    </div>
-                    <!--  <div class="item ">
+                        <!--  <div class="item ">
                     <img src="Images/web banners-06.jpg" alt="" style="width:100%;">
                     <div class="carousel-caption">
                     </div>
@@ -367,189 +368,189 @@
                     <div class="carousel-caption">
                     </div>
                 </div>-->
-                    <!--                 <div class="item ">
+                        <!--                 <div class="item ">
                     <img src="img/banner1.png" alt="" style="width:100%;height:500px;">
                     <div class="carousel-caption">
                     </div>
                 </div> -->
 
 
-                    <!-- Left and right controls -->
+                        <!-- Left and right controls -->
+                    </div>
                 </div>
-            </div>
-    </section>
+        </section>
 
-    <section id="services" class="wow" style="-webkit-animation-name: fadeIn;
+        <section id="services" class="wow" style="-webkit-animation-name: fadeIn;
   animation-name: fadeIn;visibility:visible;">
-        <div class="container-fluid padNone">
+            <div class="container-fluid padNone">
 
 
-            <div class="col-md-3">
-                <a href="hr-consultancy">
-                    <div class="Box wow" style="background: #f9b805;-webkit-animation-name: fadeInLeft;
+                <div class="col-md-3">
+                    <a href="hr-consultancy">
+                        <div class="Box wow" style="background: #f9b805;-webkit-animation-name: fadeInLeft;
                   animation-name: fadeInLeft;
                 animation-duration: 2.5s;
                 animation-iteration-count: 1;visibility:visible;data-wow-delay=0.8s;">
-                        <h2><img src="img/icons/recrutment.png" alt="recruitment - Innerwork"> <span>HR Services</span></h2>
-                        <p>Help Wanted-seeking business students interested in finding success.</p>
-                    </div>
-                </a>
-            </div>
+                            <h2><img src="img/icons/recrutment.png" alt="recruitment - Innerwork"> <span>HR Services</span></h2>
+                            <p>Help Wanted-seeking business students interested in finding success.</p>
+                        </div>
+                    </a>
+                </div>
 
-            <div class="col-md-3">
-                <a href="it-services">
-                    <div class="Box wow" style="background: #000;-webkit-animation-name: fadeInLeft;
+                <div class="col-md-3">
+                    <a href="it-services">
+                        <div class="Box wow" style="background: #000;-webkit-animation-name: fadeInLeft;
                  animation-name: fadeInLeft;
                animation-duration: 2s;
                animation-iteration-count: 1;visibility:visible;data-wow-delay=0.6s;">
-                        <h2 style="color:#fff;"><img src="img/icons/satafing.png" alt="staffing - Innerwork"> <span style="color:#fff;">IT Services</span></h2>
-                        <p style="color:#fff;">Your Transition into the professional World Begins Here!</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3">
-                <a href="digital-marketing">
-                    <div class="Box wow" style="background: #f9b805;-webkit-animation-name: fadeInLeft;
+                            <h2 style="color:#fff;"><img src="img/icons/satafing.png" alt="staffing - Innerwork"> <span style="color:#fff;">IT Services</span></h2>
+                            <p style="color:#fff;">Your Transition into the professional World Begins Here!</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="digital-marketing">
+                        <div class="Box wow" style="background: #f9b805;-webkit-animation-name: fadeInLeft;
                   animation-name: fadeInLeft;
                 animation-duration: 1.5s;visibility:visible;data-wow-delay=0.4s;
                 animation-iteration-count: 1;">
-                        <h2><img src="img/icons/manegment.png" alt="management - Innerwork"> <span>Digital Marketing</span></h2>
-                        <p>Good Management is the art of solving problems so interesting candidate hurry!</p>
-                    </div>
-                </a>
-            </div>
-            <div class="dropdown col-md-3 service_dropdown">
-                <a href="#" class="dropdown-toggle service_dropdown_toggle" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <div class="Box wow" style="background: #000;-webkit-animation-name: fadeInLeft;
+                            <h2><img src="img/icons/manegment.png" alt="management - Innerwork"> <span>Digital Marketing</span></h2>
+                            <p>Good Management is the art of solving problems so interesting candidate hurry!</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="dropdown col-md-3 service_dropdown">
+                    <a href="#" class="dropdown-toggle service_dropdown_toggle" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="Box wow" style="background: #000;-webkit-animation-name: fadeInLeft;
                   animation-name: fadeInLeft;
                 animation-duration: 1s;
                 animation-iteration-count: 1;visibility:visible;data-wow-delay=0.2s;">
-                        <h3 style="color:#fff;"><img src="img/icons/startupSupport.jpg" alt="management - Innerwork"> <span style="color:#fff;">Multimedia, 3D & VFX</span></h3>
-                        <p style="color:#fff;">Enter the exciting world of Creativity.</p>
-                    </div>
-                </a>
-                <ul class="dropdown-menu service_drop_menu" aria-labelledby="navbarDropdownMenuLink1">
-                    <li><a class="dropdown-item service_drop_link" href="3d_and_vfx?course=Graphic Designing">Graphic Designing</a></li>
-                    <li><a class="dropdown-item service_drop_link" href="3d_and_vfx?course=Video Editing">Video Editing</a></li>
-                    <li><a class="dropdown-item service_drop_link" href="3d_and_vfx?course=Motion Graphics">Motion Graphics</a></li>
-                    <li><a class="dropdown-item service_drop_link" href="3d_and_vfx?course=Architecture Designing">Architecture Designing</a></li>
-                    <li><a class="dropdown-item service_drop_link" href="3d_and_vfx?course=Autodesk MAX">Autodesk MAX</a></li>
-                    <li><a class="dropdown-item service_drop_link" href="3d_and_vfx?course=Autodesk Maya">Autodesk Maya</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section id="aboutUs">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="img/aboutstyle.png" alt="about Innerwork" class="about_style">
-                    <h4>About</h4>
-                    <h2>Innerwork</h2>
-                    <p>Innerwork provides full-range human resources and IT solutions to help businesses improve hiring and digital infrastructure for the effective functioning of the company. Founded with a purpose to find the right balance of quality hiring and smooth on-boarding, Innerwork believes in understanding the business inside-out and be a strategic partner in the business journey. </p>
-                    <p>Our team, comprising of experienced human resource and IT professionals, works single-mindedly to offer customized HR solutions to enterprises so that perfect skill-to-work match could be achieved most cost-effectively.</p>
-                    <a href="about">Know More</a>
-
-                </div>
-                <div class="col-md-6">
-
-                    <img src="Images/HOME PAGE about us imageAsset 13.jpg" alt="about Innerwork" style="width: 100%;">
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <section id="corporateCounter">
-        <div class="container">
-            <div class="row counter">
-                <div class="col-md-3">
-                    <div class="successData">
-                        <img src="img/icons/successClient.png" alt="Innerwork successful clients">
-                        <h2>Successful Clients</h2>
-                        <span class="count">200</span><span>+</span>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="successData">
-                        <img src="img/icons/expertIcon.png" alt="Innerwork consultant">
-                        <h2>Expert Consultants</h2>
-                        <span class="count">25</span><span>+</span>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="successData">
-                        <img src="img/icons/teamMember.png" alt="Innerwork team">
-                        <h2>Team Members</h2>
-                        <span class="count">100</span><span>+</span>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="successData">
-                        <img src="img/icons/qualified.png" alt="Innerwork students">
-                        <h2>Qualified Students</h2>
-                        <span class="count">800</span><span>+</span>
-                    </div>
+                            <h3 style="color:#fff;"><img src="img/icons/startupSupport.jpg" alt="management - Innerwork"> <span style="color:#fff;">Multimedia, 3D & VFX</span></h3>
+                            <p style="color:#fff;">Enter the exciting world of Creativity.</p>
+                        </div>
+                    </a>
+                    <ul class="dropdown-menu service_drop_menu" aria-labelledby="navbarDropdownMenuLink1">
+                        <li><a class="dropdown-item service_drop_link" href="3d_and_vfx?course=Graphic Designing">Graphic Designing</a></li>
+                        <li><a class="dropdown-item service_drop_link" href="3d_and_vfx?course=Video Editing">Video Editing</a></li>
+                        <li><a class="dropdown-item service_drop_link" href="3d_and_vfx?course=Motion Graphics">Motion Graphics</a></li>
+                        <li><a class="dropdown-item service_drop_link" href="3d_and_vfx?course=Architecture Designing">Architecture Designing</a></li>
+                        <li><a class="dropdown-item service_drop_link" href="3d_and_vfx?course=Autodesk MAX">Autodesk MAX</a></li>
+                        <li><a class="dropdown-item service_drop_link" href="3d_and_vfx?course=Autodesk Maya">Autodesk Maya</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <p>
-                        <span class="vision"><b>Our Vision</b></span><br />
-                        Adding Value in to your Business through our HR Services and become most trusted HR business Partner.
-                    </p>
+        </section>
+
+        <section id="aboutUs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/aboutstyle.png" alt="about Innerwork" class="about_style">
+                        <h4>About</h4>
+                        <h2>Innerwork</h2>
+                        <p>Innerwork provides full-range human resources and IT solutions to help businesses improve hiring and digital infrastructure for the effective functioning of the company. Founded with a purpose to find the right balance of quality hiring and smooth on-boarding, Innerwork believes in understanding the business inside-out and be a strategic partner in the business journey. </p>
+                        <p>Our team, comprising of experienced human resource and IT professionals, works single-mindedly to offer customized HR solutions to enterprises so that perfect skill-to-work match could be achieved most cost-effectively.</p>
+                        <a href="about">Know More</a>
+
+                    </div>
+                    <div class="col-md-6">
+
+                        <img src="Images/HOME PAGE about us imageAsset 13.jpg" alt="about Innerwork" style="width: 100%;">
+
+                    </div>
+
                 </div>
-                <div class="col-md-6">
-                    <p>
-                        <span class="vision"><b>Our Mission</b></span><br />
-                        Redefine, improve and transform HR Services in India.
-                    </p>
-                </div>
+
             </div>
-            <a href="contact">Appointment</a>
-        </div>
-    </section>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script id="rendered-js">
-        $('.count').each(function() {
-            $(this).prop('Counter', 0).animate({
-                Counter: $(this).text()
-            }, {
-                duration: 4000,
-                easing: 'swing',
-                step: function(now) {
-                    $(this).text(Math.ceil(now));
-                }
+
+        </section>
+
+        <section id="corporateCounter">
+            <div class="container">
+                <div class="row counter">
+                    <div class="col-md-3">
+                        <div class="successData">
+                            <img src="img/icons/successClient.png" alt="Innerwork successful clients">
+                            <h2>Successful Clients</h2>
+                            <span class="count">200</span><span>+</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="successData">
+                            <img src="img/icons/expertIcon.png" alt="Innerwork consultant">
+                            <h2>Expert Consultants</h2>
+                            <span class="count">25</span><span>+</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="successData">
+                            <img src="img/icons/teamMember.png" alt="Innerwork team">
+                            <h2>Team Members</h2>
+                            <span class="count">100</span><span>+</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="successData">
+                            <img src="img/icons/qualified.png" alt="Innerwork students">
+                            <h2>Qualified Students</h2>
+                            <span class="count">800</span><span>+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>
+                            <span class="vision"><b>Our Vision</b></span><br />
+                            Adding Value in to your Business through our HR Services and become most trusted HR business Partner.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            <span class="vision"><b>Our Mission</b></span><br />
+                            Redefine, improve and transform HR Services in India.
+                        </p>
+                    </div>
+                </div>
+                <a href="contact">Appointment</a>
+            </div>
+        </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script id="rendered-js">
+            $('.count').each(function() {
+                $(this).prop('Counter', 0).animate({
+                    Counter: $(this).text()
+                }, {
+                    duration: 4000,
+                    easing: 'swing',
+                    step: function(now) {
+                        $(this).text(Math.ceil(now));
+                    }
+                });
+
             });
+        </script>
 
-        });
-    </script>
-
-    <section id="tagline">
-        <div class="container">
-            <span class="wow" style="animation-duration: 2s;
+        <section id="tagline">
+            <div class="container">
+                <span class="wow" style="animation-duration: 2s;
         animation-iteration-count: 1;-webkit-animation-name: fadeInUp;
           animation-name: fadeInUp;visibility:visible;data-wow-delay=2s;">WE DESIGN SOLUTIONS FOR YOUR BUSINESS TO BE THE BEST</span>
-            <h2 class="wow" style="animation-duration: 2.5s;
+                <h2 class="wow" style="animation-duration: 2.5s;
         animation-iteration-count: 1;-webkit-animation-name: fadeInUp;
           animation-name: fadeInUp;visibility:visible;data-wow-delay=2.5s;">Start your career soaring high...
-                Reach for us</h2>
-            <p class="wow" style="animation-duration: 3s;
+                    Reach for us</h2>
+                <p class="wow" style="animation-duration: 3s;
         animation-iteration-count: 1;-webkit-animation-name: fadeInUp;
           animation-name: fadeInUp;visibility:visible;data-wow-delay=3s;">We adopt a systematic and structured approach to meet the HR needs of our clients, combined with a very effective form of matrix evaluation process. The result is effective services that are On Plan, On Time, and On Budget. And our psychometric evaluation processes make sure our candidates and services are the best.</p>
-            <a href="contact" class="hireBtn hireUsBtn wow" style="animation-duration: 3.5s;
+                <a href="contact" class="hireBtn hireUsBtn wow" style="animation-duration: 3.5s;
         animation-iteration-count: 1;-webkit-animation-name: fadeInUp;
           animation-name: fadeInUp;visibility:visible;data-wow-delay=3.5s;">Hire Us</a>
-        </div>
-    </section>
+            </div>
+        </section>
 
 
 
-    <!--<section id="services">
+        <!--<section id="services">
     <div class="container">
         <div class="row"><h1 style="margin-left: 2%;color: #f9b805;">Our Clients</h1></div>
     <div class="row">
@@ -565,7 +566,7 @@
     </div>
   </div>-->
 
-    <!-- <section id="services">
+        <!-- <section id="services">
     <div class="container padNone">
         <div class="row"><h1 style="margin-left: 4%;color: #f9b805;">Our Clients</h1></div>
 
@@ -646,146 +647,147 @@
 
  -->
 
-    <style>
-        @media (min-width: 768px) {
-            .y {
-                width: 20%;
+        <style>
+            @media (min-width: 768px) {
+                .y {
+                    width: 20%;
+                }
             }
-        }
-    </style>
-    <section id="services">
-        <div class="container-fluid fourth-content">
-            <div class="row">
-                <h1 style="margin-left: 2%;color: #f9b805;">Our Clients</h1>
+        </style>
+        <section id="services">
+            <div class="container-fluid fourth-content">
+                <div class="row">
+                    <h1 style="margin-left: 2%;color: #f9b805;">Our Clients</h1>
+                </div>
+                <div class="row wow">
+                    <div class=" col-md-3  col-xs-6 y">
+                        <div class="item wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">
+                            <div class="thumb">
+                                <a href="https://set.jainuniversity.ac.in/" target="_blank" data-lightbox="image-1">
+                                    <div class="hover-effect">
+                                        <div class="hover-content">
+                                            <h2>Jain University</h2>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <img src="img/jginew.jpg" alt="image">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3  col-xs-6 y">
+                        <div class="item wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">
+                            <div class="thumb">
+                                <a href="http://sabsngo.org/" target="_blank" data-lightbox="image-1">
+                                    <div class="hover-effect">
+                                        <div class="hover-content">
+                                            <h2>SABS</h2>
+
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="image">
+                                    <img src="img/sabsnew.jpg" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6 y">
+                        <div class="item wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">
+                            <div class="thumb">
+                                <a href="https://www.jklu.edu.in/faculty/devendra-bhavsar/" target="_blank" data-lightbox="image-1">
+                                    <div class="hover-effect">
+                                        <div class="hover-content">
+                                            <h2>JK Lakshmipat University</h2>
+
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="image">
+                                    <img src="img/jklunew.jpg" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3  col-xs-6 y">
+                        <div class="item wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.9s">
+                            <div class="thumb">
+                                <a href="http://qspiders.com/anjali-m" target="_blank" data-lightbox="image-1">
+                                    <div class="hover-effect">
+                                        <div class="hover-content">
+                                            <h2>Anjali</h2>
+
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="image">
+                                    <img src="img/spidernew.jpg" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3  col-xs-6 y">
+                        <div class="item wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.9s">
+                            <div class="thumb">
+                                <a href="https://www.bseindia.com/" target="_blank" data-lightbox="image-1">
+                                    <div class="hover-effect">
+                                        <div class="hover-content">
+                                            <h2>BSE</h2>
+
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="image">
+                                    <img src="img/bsenew.jpg" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3  col-xs-6 y">
+                        <div class="item wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.9s">
+                            <div class="thumb">
+                                <a href="https://www.upes.ac.in/" target="_blank" data-lightbox="image-1">
+                                    <div class="hover-effect">
+                                        <div class="hover-content">
+                                            <h2>UPES</h2>
+
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="image">
+                                    <img src="img/upesnew.jpg" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3  col-xs-6 y">
+                        <div class="item wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1s">
+                            <div class="thumb">
+                                <a href="https://uptownie.com/" target="_blank" data-lightbox="image-1">
+                                    <div class="hover-effect">
+                                        <div class="hover-content">
+                                            <h2>Uptownie</h2>
+
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="image">
+                                    <img src="img/uptownnew.jpg" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
             </div>
-            <div class="row wow">
-                <div class=" col-md-3  col-xs-6 y">
-                    <div class="item wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">
-                        <div class="thumb">
-                            <a href="https://set.jainuniversity.ac.in/" target="_blank" data-lightbox="image-1">
-                                <div class="hover-effect">
-                                    <div class="hover-content">
-                                        <h2>Jain University</h2>
-                                    </div>
-                                </div>
-                            </a>
 
-                            <img src="img/jginew.jpg" alt="image">
+        </section>
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3  col-xs-6 y">
-                    <div class="item wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">
-                        <div class="thumb">
-                            <a href="http://sabsngo.org/" target="_blank" data-lightbox="image-1">
-                                <div class="hover-effect">
-                                    <div class="hover-content">
-                                        <h2>SABS</h2>
-
-                                    </div>
-                                </div>
-                            </a>
-                            <div class="image">
-                                <img src="img/sabsnew.jpg" alt="image">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-6 y">
-                    <div class="item wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">
-                        <div class="thumb">
-                            <a href="https://www.jklu.edu.in/faculty/devendra-bhavsar/" target="_blank" data-lightbox="image-1">
-                                <div class="hover-effect">
-                                    <div class="hover-content">
-                                        <h2>JK Lakshmipat University</h2>
-
-                                    </div>
-                                </div>
-                            </a>
-                            <div class="image">
-                                <img src="img/jklunew.jpg" alt="image">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3  col-xs-6 y">
-                    <div class="item wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.9s">
-                        <div class="thumb">
-                            <a href="http://qspiders.com/anjali-m" target="_blank" data-lightbox="image-1">
-                                <div class="hover-effect">
-                                    <div class="hover-content">
-                                        <h2>Anjali</h2>
-
-                                    </div>
-                                </div>
-                            </a>
-                            <div class="image">
-                                <img src="img/spidernew.jpg" alt="image">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3  col-xs-6 y">
-                    <div class="item wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.9s">
-                        <div class="thumb">
-                            <a href="https://www.bseindia.com/" target="_blank" data-lightbox="image-1">
-                                <div class="hover-effect">
-                                    <div class="hover-content">
-                                        <h2>BSE</h2>
-
-                                    </div>
-                                </div>
-                            </a>
-                            <div class="image">
-                                <img src="img/bsenew.jpg" alt="image">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3  col-xs-6 y">
-                    <div class="item wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.9s">
-                        <div class="thumb">
-                            <a href="https://www.upes.ac.in/" target="_blank" data-lightbox="image-1">
-                                <div class="hover-effect">
-                                    <div class="hover-content">
-                                        <h2>UPES</h2>
-
-                                    </div>
-                                </div>
-                            </a>
-                            <div class="image">
-                                <img src="img/upesnew.jpg" alt="image">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3  col-xs-6 y">
-                    <div class="item wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1s">
-                        <div class="thumb">
-                            <a href="https://uptownie.com/" target="_blank" data-lightbox="image-1">
-                                <div class="hover-effect">
-                                    <div class="hover-content">
-                                        <h2>Uptownie</h2>
-
-                                    </div>
-                                </div>
-                            </a>
-                            <div class="image">
-                                <img src="img/uptownnew.jpg" alt="image">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-
-        </div>
-
+        <?php include_once 'Footer.php'; ?>
     </section>
-
-    <?php include_once 'Footer.php'; ?>
 </body>
 
 </html>
