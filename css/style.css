@@ -599,6 +599,9 @@ p.copyright a:hover {
         width: 52%;
         margin-top: -6%;
     }
+    .navbar-nav{
+        margin-top: 0;
+    }
     .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
         width: 56%;
     }

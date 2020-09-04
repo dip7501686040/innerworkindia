@@ -123,7 +123,7 @@ window.addEventListener('load', function () {
     // want to be respectful there is no need to bother them any more.
   }
 </script>
-<link rel="stylesheet" type="text/css" href="css/demo.css">
+<link rel="stylesheet" type="text/css" href="css/demo.css?version=1.1">
 
 <section id="headerBtm" style="padding-bottom:2%;">
   <div class="container-fluid">
