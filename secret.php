@@ -21,7 +21,7 @@ if(isset($_POST['submit'])) {
                     foreach($data as $row) {
                         $dbPass = $row['pass'];
 
-                        if(password_verify($password, $dbPass))
+                        if($password == $dbPass)
                         {
                             session_start();
 

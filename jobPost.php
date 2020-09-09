@@ -899,7 +899,7 @@ function fillinterst(Value) {
 
 
 
-                        <input type="submit" value="Submit" name="submit2" class="form-control" style="margin-top:3%;">
+                        <input type="submit" onclick="return submitEmployerForm()" value="Submit" name="submit2" class="form-control" style="margin-top:3%;">
                     </form>
                         </div>
              <script>
