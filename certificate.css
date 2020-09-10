@@ -1,0 +1,151 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+#background
+{
+	background-color: black;
+	position:relative;
+	width:1308px;
+	color: white;
+	margin-left: 100px;
+        width: 876px;
+	margin-top: 100px;
+}
+#logo
+{
+	position:absolute;
+
+}
+#address
+{
+	margin-top:10px;
+	position:absolute;
+	padding-left: 650px;
+	color:black;
+	font-size:12px;
+}
+#id
+{
+	border:10px solid orange;
+	border-radius:5px;
+	position:absolute;
+}
+#hr
+{
+	position:absolute;
+	border:4px solid #F4A460;
+	width:900px;
+	box-shadow: 2px 6px 5px #DEB887;
+	margin-top: 131px;
+    margin-left: 57px;
+
+}
+#body
+{
+	position:absolute;
+	margin-left: 100px;
+    width: 876px;
+	margin-top: 158px;
+	background-color: #ffffe6;
+	width: 812px;
+    height: 900px;
+	background-repeat: no-repeat;
+	background-size: cover
+}
+#midLogo
+{
+	position:absolute;
+	width:312px;
+	opacity:0.2;
+	margin-left: 250px;
+    margin-top: 356px;
+}
+#ref
+{
+	position:absolute;
+    margin-top: 34px;
+    color: black;
+}
+#cdate
+{
+	position:absolute;
+	color: black;
+    margin-top: 34px;
+    margin-left: 670px;
+}
+#head
+{
+	position:absolute;
+	color: black;
+    margin-top: 109px;
+    margin-left: 219px;
+    font-size: 28px;
+}
+#details
+{
+	position:absolute;
+	color: black;
+    margin-top: 193px;
+    font-size: 24px;
+	font-family:Times new Roman;
+	line-height:2;
+}
+#downHr
+{
+	position:absolute;
+	width: 828px;
+    margin-top: 1102px;
+    margin-left: 88px;
+}
+#lastLine
+{
+	position:absolute;
+	margin-top: 1120px;
+    margin-left: 103px;
+}
+#hr2
+{
+	position:absolute;
+	border:4px solid #F4A460;
+	width:900px;
+	box-shadow: 2px 6px 5px #DEB887;
+	margin-top: 1165px;
+    margin-left: 57px;
+}
+#but{
+  padding:10px 25px;
+  border-radius: 5px;
+  background-color:black;
+  color:#f0a500;
+  cursor: pointer;
+	position:absolute;
+	top:185%;
+	left:45%;
+font-family: 'Roboto', sans-serif;
+font-weight:400;
+
+}
+div.scrollmenu {
+  background-color: #777;
+  overflow: auto;
+  white-space: nowrap;
+	float:none;
+	display:inline-block;
+	position:absolute;
+	top:5%;
+	right:40%;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+	float:none;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #eebb4d;
+	color:black;
+}

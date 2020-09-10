@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Certificate</title>
+        <header><a href="form.html" >Generate</a><a href="#print.html">Print</a><a href="#update.html" >Update</a><a href="#delete.html">Delete</a></header>
+
+        <link type="text/CSS" rel="stylesheet" href="certificate.css"/>
+    </head>
+
+    <body>
+        <div class="certificate">
+            <div id="background">
+                <div id="logo">
+                    <embed src="https://innerworkindia.com/img/logo.png" height="120px" width="120px"/>
+                </div>
+                <div id="address">
+                    <h3>Corprate Office</h3>
+                    #80,4th cross, Ashwath Nagar,<br>
+                    Marathahalli, Bnaglore,<br>
+                    560017,  9887888469.
+                </div>
+            </div>
+
+
+            <div id="hrDiv"><hr id="hr"/></div>
+            
+            
+            <div id="body">
+        
+                <script>
+                    var cdate = new Date();
+                    var day = cdate.getDate();
+                    var month = cdate.getMonth()+1;
+                    var year = cdate.getFullYear();
+                    cdate="Date:"+day+"/"+month+"/"+year;
+                </script>
+                <div id="ref">Ref:INWRK/INT/2020/2025</div>
+                <div id="cdate"><script>document.getElementById("cdate").innerHTML = cdate;</script></div>
+                <div id="head"><b><u>TO WHOM IT MAY CONCERN</b></u></div>
+                <div id="midLogo"><img src="https://innerworkindia.com/img/logo.png" height="250px" width="300px"></div>
+                <div id="details">hello</div>
+            </div>
+        
+            <script>
+                
+                var name = localStorage.getItem("name");
+
+                document.title = "Certificate - "+name;
+
+                name=name.bold();
+               
+                var sex = localStorage.getItem("sex"); 
+                console.log("certificate gender "+sex);
+                var fname = localStorage.getItem("father_name").bold(); 
+                var college_name = localStorage.getItem("college_name").bold(); 
+                var degree = localStorage.getItem("degree").bold();  
+                var branch = localStorage.getItem("branch");
+                var college_address = localStorage.getItem("college_address").bold();
+                var work_duration = localStorage.getItem("work_duration").bold();
+                var joinDate = localStorage.getItem("JoinDate"); 
+                var resignDate = localStorage.getItem("ResignDate"); 
+                var designation = localStorage.getItem("designation").bold();
+                var projectDetail = localStorage.getItem("projectDetail");
+                var mr="";
+                var so="";
+                var his="";
+                var he="";
+                var him="";
+                if(sex=="Male")
+                {
+                    mr="Mr.";
+                    so="S/O";
+                    his="his";
+                    he="he";
+                    him="him"
+                }
+                else
+                {
+                    mr="Ms.";
+                    so="D/O";
+                    his="her";
+                    he="she";
+                    him="her";
+                }
+                var day=joinDate.substring(8,10);
+                var month=joinDate.substring(5,7);
+                var year=joinDate.substring(0,4);
+                joinDate=day+"/"+month+"/"+year;
+
+                var day=resignDate.substring(8,10);
+                var month=resignDate.substring(5,7);
+                var year=resignDate.substring(0,4);
+                resignDate=day+"/"+month+"/"+year;
+                
+                document.getElementById("details").innerHTML="This is to certify that "+mr+" "+name+", "+so+" "+fname+", a student of "+degree+" (Branch - "+branch+"), "+college_name+", "+college_address+" has successfully completed "+work_duration+" (From "+joinDate+" to "+resignDate+") internship program as an "+designation+" at <b>Innerwork Solution Pvt Ltd,</b> Bangalore. During the period of "+his+" internship program with us "+he+" was found punctual, hardworking and inquisitive.<br><b>Project Details: </b>"+projectDetail+" <br> <br>We wish "+him+" very success in life.<br> <br>For <b>Innerwork Solution Pvt Ltd.</b><br>Sheela<br>HR Manager" ;
+            </script>
+            <div id="downHr"><hr></div>
+            <div id="lastLine">Corprate IdentityNumber U74999KA2019PTC129695 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp www.innerworkindia.com</div>
+            <div id="hrDiv2"><hr id="hr2"/></div>
+
+            <script>
+                window.print();
+            </script>
+
+        </div>
+    </body>
+</html>

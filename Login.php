@@ -46,7 +46,7 @@
             </a>
         </div>
         <div class="col-md-3">
-            <a href="http://certificate.innerworkindia.com/">
+            <a href="home.html">
                 <div class="Box" style="background: #000;">
                     <h2 style="color:#fff;"><img src="img/icons/intern.png" alt="intern- Inner Work"> <span style="color:#fff;">Intern Login</span></h2>
                     <p style="color:#fff;">Login for Internship program! Find suitable Internship based on your skill!</p>
