@@ -175,7 +175,7 @@ window.addEventListener('load', function () {
               <a class="dropdown-toggle" href="#" id="servicesPageLink" data-toggle="dropdown">
                 Multimedia&nbsp&nbsp&nbsp<b class="fa fa-caret-down"></b>
               </a>
-              <ul class="dropdown-menu drop_menu_level_1" >
+              <ul class="dropdown-menu drop_menu_level_1">
                 <li><a class="drop_link" href="3d_and_vfx?course=Graphic Designing">Graphic Designing</a></li>
                 <li><a class="drop_link" href="3d_and_vfx?course=Video Editing">Video Editing</a></li>
                 <li><a class="drop_link" href="3d_and_vfx?course=Motion Graphics">Motion Graphics</a></li>
