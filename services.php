@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.6.1/animate.min.css">
 
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous"> --> -->
   <!-- Template CSS Files -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.5/dist/css/bootstrap.min.css">
 
@@ -44,6 +44,19 @@
       box-sizing: border-box;
     }
 
+
+
+
+
+
+  /*akanksha goyal changes*/
+    .adjust{
+      margin-right : -15px;
+      margin-left : -180px;
+    }
+    .margin{
+      height:443px;
+    }
     p {
 
       line-height: 22px;
@@ -52,7 +65,7 @@
     }
 
     body {
-      background: #ffffff;
+      background: blue;
       overflow-x: hidden;
     }
 
@@ -345,9 +358,7 @@
       font-size: 18px;
     }
 
-    .section2 {
-      text-align: center;
-    }
+    
 
 
     /* Create three equal columns that floats next to each other */
@@ -441,7 +452,7 @@
       color: #f8f9fa;
 
     }
-
+    
     /* Clear floats after the columns */
     .row:after {
       content: "";
@@ -619,7 +630,7 @@
 
   <div class="row">
     <div class="block col-md-4 feature-1 block wow fadeInUp animated" data-wow-duration="600ms" data-wow-delay=".1s" id="column1" style="background-color:#f8f9fa;">
-
+     <div class="margin">
       <div class="icons" style="background-color: #f8f9fa;">
         <i class="ion-ios-expand"></i>
         <h3> ENTERPRISE SOLUTIONS</h3>
@@ -637,6 +648,7 @@
           <li> Middleware Compute Solutions</li>
           <li>UI Development and Maintenance </li>
         </ul>
+      </div>
       </div>
     </div>
     <div class="block col-md-4 feature-2 block wow fadeInUp animated" data-wow-duration="600ms" data-wow-delay=".2s" id="column2" style="background-color:#dee2e6;">
@@ -769,10 +781,14 @@
 </div>..-->
 
     <div class="section2 ">
+    
+
       <h1 class="title wow fadeInDown" data-wow-delay=".1s"><b style="color: #ff9f1c;"> THE WAY TO SUCCESS</b></h1>
     </div>
-    <div class="row banner">
+    <div class="row banner ">
+    <div class = "adjust">
       <img src="Images/banner.png" class="img-fluid " alt="Responsive image">
+      </div>
     </div>
 
     <?php include_once 'Footer.php'; ?>
